@@ -1,0 +1,81 @@
+section.section-1 {
+    background: url('../images/section-1-bg.png') center center;
+    @media (min-width: 375px) {
+        background: url('../images/section-1/bg.png') center center;
+    }
+    h2 {
+        font-size: 2em;
+        margin: 0;
+        padding: 60px 40px;
+        text-align: center;
+        color: #ffffff;
+        @media (min-width: 768px) {
+            width: 460px;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 60px 0px;
+        }
+    }
+
+    ul {
+        padding-bottom: 120px;
+        margin-top: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        list-style: none;
+        @media (min-width: 768px) {
+            display: table;
+            margin: 0 auto;
+        }
+        li {
+            color: #ffffff;
+            margin-bottom: 12px;
+            border: 1px solid #473c47;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            @media (min-width: 768px) {
+                display: inline-block;
+                width: 200px;
+                text-align: center;
+                padding: 40px 0;
+                margin-right: 15px;
+                &:last-child {
+                    padding: 37px 0 40px;
+                    margin-right: 0;
+                }
+            }
+            .image-container {
+                @media (min-width: 768px) {
+                    display: inline-block;
+                }
+                img {
+                    float: left;
+                    margin-right: 10px;
+                    @media (min-width: 768px) {
+                        display: none;
+                    }
+                    &.big {
+                        display: none;
+                        @media (min-width: 768px) {
+                            display: inline-block;
+                        }
+                    }
+                }
+            }
+            p {
+                float: left;
+                margin: 0;
+                margin-top: 10px;
+                @media (min-width: 768px) {
+                    float: none;
+                }
+            }
+            &::after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+        }
+    }
+}

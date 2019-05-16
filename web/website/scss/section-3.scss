@@ -1,0 +1,72 @@
+section.section-3 {
+    background-color: #f7f7f7;
+    h2 {
+        padding-top: 85px;
+        margin-bottom: 40px;
+        color: #000000;
+        text-align: center;
+    }
+    .testimonial {
+        width: 380px;
+        display: table;
+        margin: 0 auto;
+    }
+    blockquote {
+        margin: 0 15px;
+        padding: 30px 15px;
+        box-shadow: 2px 2px 6px #a8a8a8;
+        border-radius: 20px;
+        position: relative;
+        p {
+            margin: 15px 20px;
+        }
+        &::before {
+            content: '';
+            display: block;
+            width: 25px;
+            height: 20px;
+            background: url('../images/section-3/double-quotes.png') no-repeat 0 0 transparent;
+            position: absolute;
+            top: 19px;
+            left: 10px;
+        }
+        &::after {
+            content: '';
+            display: block;
+            width: 38px;
+            height: 27px;
+            background: url('../images/section-3/part-of-callout.png') no-repeat 0 0 transparent;
+            position: absolute;
+            bottom: -25px;
+            left: 38px;
+        }
+    }
+    .customer {
+        margin-top: 40px;
+        display: table;
+        padding-bottom: 200px;
+        .customer--first-col {
+            padding-left: 15px;
+            display: table-cell;
+            vertical-align: top;
+        }
+        .customer--second-col {
+            display: table-cell;
+            vertical-align: middle;
+            padding-left: 10px;
+            margin-right: 15px;
+            p {
+                margin-top: 0;
+                &:first-child {
+                    margin-bottom: 5px;
+                    text-transform: uppercase;
+                }
+                & + p {
+                    color:#6b6b6b;
+                    font-size: 0.9em;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+}

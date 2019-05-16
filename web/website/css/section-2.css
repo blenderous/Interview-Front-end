@@ -1,0 +1,55 @@
+section.section-2 {
+  margin-bottom: 80px; }
+  @media (min-width: 768px) {
+    section.section-2 {
+      max-width: 768px;
+      margin: 0 auto;
+      margin-bottom: 80px; } }
+  @media (min-width: 1200px) {
+    section.section-2 {
+      max-width: 1200px; } }
+  section.section-2 h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 80px 15px 60px;
+    text-align: left;
+    color: #000000; }
+    @media (min-width: 768px) {
+      section.section-2 h2 {
+        padding-bottom: 15px;
+        width: 380px;
+        padding-right: 13px;
+        padding-left: 0; } }
+    @media (min-width: 1200px) {
+      section.section-2 h2 {
+        max-width: 587px; } }
+  section.section-2 p {
+    padding-right: 15px;
+    padding-left: 15px; }
+  @media (min-width: 768px) {
+    section.section-2 .col-1 {
+      float: left; }
+    section.section-2 p {
+      width: 380px;
+      margin-right: 13px;
+      padding-right: 0;
+      padding-left: 0; }
+    section.section-2::after {
+      content: '';
+      display: block;
+      clear: both; } }
+  @media (min-width: 1200px) {
+    section.section-2 p {
+      width: 580px; } }
+  section.section-2 img {
+    margin: 0;
+    margin-top: 25px;
+    width: 100%; }
+    @media (min-width: 768px) {
+      section.section-2 img {
+        width: auto;
+        float: right;
+        margin-top: 90px; } }
+    @media (min-width: 1200px) {
+      section.section-2 img {
+        width: 600px; } }

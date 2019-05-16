@@ -1,0 +1,335 @@
+/* reset */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff; }
+
+/* nav */
+nav {
+  background-color: #171513;
+  background-image: linear-gradient(to top, #171513 0%, #2d2725 100%);
+  height: 70px;
+  line-height: 70px;
+  padding: 0 10px;
+  position: relative; }
+
+.hamburger-menu--button {
+  background-color: transparent;
+  border: none;
+  float: left;
+  margin-top: 26px; }
+  @media (min-width: 768px) {
+    .hamburger-menu--button {
+      display: none; } }
+
+.company-logo {
+  line-height: 70px;
+  vertical-align: middle;
+  position: absolute;
+  left: 50%;
+  top: 27px;
+  transform: translateX(-50%); }
+  @media (min-width: 768px) {
+    .company-logo {
+      transform: none;
+      left: 50px; } }
+
+.share-button {
+  background-color: transparent;
+  border: none;
+  float: right;
+  margin-top: 28px; }
+  @media (min-width: 768px) {
+    .share-button {
+      display: none; } }
+
+.nav-list {
+  display: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: right; }
+  .nav-list li {
+    float: left;
+    margin-right: 30px; }
+    .nav-list li a {
+      color: #bababa;
+      text-decoration: none;
+      line-height: 1; }
+    .nav-list li.active a {
+      color: #ffffff; }
+    .nav-list li:hover a {
+      color: #ffffff; }
+  @media (min-width: 768px) {
+    .nav-list {
+      display: block; } }
+  .nav-list .orange-button {
+    background-color: #ef3b00;
+    display: inline-block;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 1em; }
+    .nav-list .orange-button img {
+      vertical-align: middle;
+      display: inline;
+      margin-right: 6px;
+      margin-top: 2px; }
+
+section.section-1 {
+  background: url("../images/section-1-bg.png") center center; }
+  @media (min-width: 375px) {
+    section.section-1 {
+      background: url("../images/section-1/bg.png") center center; } }
+  section.section-1 h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 60px 40px;
+    text-align: center;
+    color: #ffffff; }
+    @media (min-width: 768px) {
+      section.section-1 h2 {
+        width: 460px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 60px 0px; } }
+  section.section-1 ul {
+    padding-bottom: 120px;
+    margin-top: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    list-style: none; }
+    @media (min-width: 768px) {
+      section.section-1 ul {
+        display: table;
+        margin: 0 auto; } }
+    section.section-1 ul li {
+      color: #ffffff;
+      margin-bottom: 12px;
+      border: 1px solid #473c47;
+      padding-top: 10px;
+      padding-left: 10px;
+      padding-bottom: 10px; }
+      @media (min-width: 768px) {
+        section.section-1 ul li {
+          display: inline-block;
+          width: 200px;
+          text-align: center;
+          padding: 40px 0;
+          margin-right: 15px; }
+          section.section-1 ul li:last-child {
+            padding: 37px 0 40px;
+            margin-right: 0; } }
+      @media (min-width: 768px) {
+        section.section-1 ul li .image-container {
+          display: inline-block; } }
+      section.section-1 ul li .image-container img {
+        float: left;
+        margin-right: 10px; }
+        @media (min-width: 768px) {
+          section.section-1 ul li .image-container img {
+            display: none; } }
+        section.section-1 ul li .image-container img.big {
+          display: none; }
+          @media (min-width: 768px) {
+            section.section-1 ul li .image-container img.big {
+              display: inline-block; } }
+      section.section-1 ul li p {
+        float: left;
+        margin: 0;
+        margin-top: 10px; }
+        @media (min-width: 768px) {
+          section.section-1 ul li p {
+            float: none; } }
+      section.section-1 ul li::after {
+        content: '';
+        display: block;
+        clear: both; }
+
+section.section-2 {
+  margin-bottom: 80px; }
+  @media (min-width: 768px) {
+    section.section-2 {
+      max-width: 768px;
+      margin: 0 auto;
+      margin-bottom: 80px; } }
+  @media (min-width: 1200px) {
+    section.section-2 {
+      max-width: 1200px; } }
+  section.section-2 h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 80px 15px 60px;
+    text-align: left;
+    color: #000000; }
+    @media (min-width: 768px) {
+      section.section-2 h2 {
+        padding-bottom: 15px;
+        width: 380px;
+        padding-right: 13px;
+        padding-left: 0; } }
+    @media (min-width: 1200px) {
+      section.section-2 h2 {
+        max-width: 587px; } }
+  section.section-2 p {
+    padding-right: 15px;
+    padding-left: 15px; }
+  @media (min-width: 768px) {
+    section.section-2 .col-1 {
+      float: left; }
+    section.section-2 p {
+      width: 380px;
+      margin-right: 13px;
+      padding-right: 0;
+      padding-left: 0; }
+    section.section-2::after {
+      content: '';
+      display: block;
+      clear: both; } }
+  @media (min-width: 1200px) {
+    section.section-2 p {
+      width: 580px; } }
+  section.section-2 img {
+    margin: 0;
+    margin-top: 25px;
+    width: 100%; }
+    @media (min-width: 768px) {
+      section.section-2 img {
+        width: auto;
+        float: right;
+        margin-top: 90px; } }
+    @media (min-width: 1200px) {
+      section.section-2 img {
+        width: 600px; } }
+
+section.section-3 {
+  background-color: #f7f7f7; }
+  section.section-3 h2 {
+    padding-top: 85px;
+    margin-bottom: 40px;
+    color: #000000;
+    text-align: center; }
+  section.section-3 .testimonial {
+    width: 380px;
+    display: table;
+    margin: 0 auto; }
+  section.section-3 blockquote {
+    margin: 0 15px;
+    padding: 30px 15px;
+    box-shadow: 2px 2px 6px #a8a8a8;
+    border-radius: 20px;
+    position: relative; }
+    section.section-3 blockquote p {
+      margin: 15px 20px; }
+    section.section-3 blockquote::before {
+      content: '';
+      display: block;
+      width: 25px;
+      height: 20px;
+      background: url("../images/section-3/double-quotes.png") no-repeat 0 0 transparent;
+      position: absolute;
+      top: 19px;
+      left: 10px; }
+    section.section-3 blockquote::after {
+      content: '';
+      display: block;
+      width: 38px;
+      height: 27px;
+      background: url("../images/section-3/part-of-callout.png") no-repeat 0 0 transparent;
+      position: absolute;
+      bottom: -25px;
+      left: 38px; }
+  section.section-3 .customer {
+    margin-top: 40px;
+    display: table;
+    padding-bottom: 200px; }
+    section.section-3 .customer .customer--first-col {
+      padding-left: 15px;
+      display: table-cell;
+      vertical-align: top; }
+    section.section-3 .customer .customer--second-col {
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 10px;
+      margin-right: 15px; }
+      section.section-3 .customer .customer--second-col p {
+        margin-top: 0; }
+        section.section-3 .customer .customer--second-col p:first-child {
+          margin-bottom: 5px;
+          text-transform: uppercase; }
+        section.section-3 .customer .customer--second-col p + p {
+          color: #6b6b6b;
+          font-size: 0.9em;
+          margin-bottom: 0; }
+
+section.section-4 {
+  background: url("../images/section-4/bg.png") no-repeat 0 0 #2a2b2c; }
+  @media (min-width: 768px) {
+    section.section-4 {
+      background: url("../images/section-4/bg-large.png") no-repeat top center #2a2b2c; } }
+  section.section-4 h2 {
+    text-align: center;
+    padding-top: 80px;
+    margin-right: 50px;
+    margin-left: 50px; }
+  section.section-4 p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    margin-right: 40px;
+    margin-left: 40px; }
+  section.section-4 form {
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-bottom: 80px; }
+    section.section-4 form input, section.section-4 form textarea {
+      display: block;
+      box-sizing: border-box;
+      width: 100%;
+      padding-right: 10px;
+      padding-left: 10px;
+      border-radius: 5px;
+      border: none;
+      color: black;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1em; }
+    section.section-4 form input {
+      padding: 10px 5px;
+      margin-bottom: 8px; }
+    section.section-4 form textarea {
+      padding: 10px;
+      width: 100%;
+      font-size: 1em;
+      margin-bottom: 40px; }
+    section.section-4 form .button-container {
+      text-align: center; }
+    section.section-4 form button {
+      background-color: #ef3b00;
+      display: inline-block;
+      color: #ffffff;
+      border: none;
+      border-radius: 30px;
+      padding: 15px 30px;
+      font-size: 1em; }
+
+footer {
+  background-color: #2d2725;
+  padding-bottom: 40px; }
+  footer p {
+    color: #9c9c9c;
+    margin: 0;
+    text-align: center;
+    font-size: 0.9em; }
+  footer .copyright {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center; }
+  footer .social-links a {
+    display: inline-block;
+    margin-left: 15px; }
